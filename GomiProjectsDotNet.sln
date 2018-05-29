@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGarblingRecovery", "TextGarblingRecovery\TextGarblingRecovery.csproj", "{52A775DC-A739-4DE0-A4AF-5A08C724CB89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64EncoderAndDecoder", "Base64EncoderAndDecoder\Base64EncoderAndDecoder.csproj", "{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{52A775DC-A739-4DE0-A4AF-5A08C724CB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A775DC-A739-4DE0-A4AF-5A08C724CB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A775DC-A739-4DE0-A4AF-5A08C724CB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
