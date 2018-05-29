@@ -24,5 +24,17 @@ namespace Base64EncoderAndDecoder
         {
             InitializeComponent();
         }
+
+        private void EncodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            var encodeStr = this.InputText.Text;
+            this.OutputText.Text = Convert.ToBase64String(Encoding.UTF8.GetBytes(encodeStr));
+        }
+
+        private void DecodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            var decodeStr = this.InputText.Text;
+            this.OutputText.Text = Encoding.UTF8.GetString(Convert.FromBase64String(decodeStr));
+        }
     }
 }
