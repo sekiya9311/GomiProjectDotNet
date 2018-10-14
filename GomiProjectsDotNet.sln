@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGarblingRecovery", "Tex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64EncoderAndDecoder", "Base64EncoderAndDecoder\Base64EncoderAndDecoder.csproj", "{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilLibrary", "UtilLibrary\UtilLibrary.csproj", "{95A0E44F-685C-4DC9-BB6A-E07D55A0866F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilLibrary.Test", "UtilLibrary.Test\UtilLibrary.Test.csproj", "{1D92D0BC-9473-4874-8AA1-AC8FAE602852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA1977C-33F3-4BAA-A5EC-3B255508AB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A0E44F-685C-4DC9-BB6A-E07D55A0866F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A0E44F-685C-4DC9-BB6A-E07D55A0866F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A0E44F-685C-4DC9-BB6A-E07D55A0866F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A0E44F-685C-4DC9-BB6A-E07D55A0866F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D92D0BC-9473-4874-8AA1-AC8FAE602852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D92D0BC-9473-4874-8AA1-AC8FAE602852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D92D0BC-9473-4874-8AA1-AC8FAE602852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D92D0BC-9473-4874-8AA1-AC8FAE602852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
