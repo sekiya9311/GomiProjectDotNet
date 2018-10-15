@@ -26,6 +26,34 @@ namespace UtilLibrary
             yield return element;
         }
 
+        public static IEnumerable<TSource> PopFront<TSource>(this IEnumerable<TSource> source)
+        {
+            bool isFirst = true;
+            foreach (var e in source)
+            {
+                if (!isFirst)
+                {
+                    yield return e;
+                }
+                isFirst = false;
+            }
+        }
+
+        public static IEnumerable<TSource> PopBack<TSource>(this IEnumerable<TSource> source)
+        {
+            var prev = default(TSource);
+            bool isFirst = true;
+            foreach (var e in source)
+            {
+                if (!isFirst)
+                {
+                    yield return prev;
+                    prev = e;
+                }
+                isFirst = false;
+            }
+        }
+
         public static bool IsSorted<TSource>(this IEnumerable<TSource> source, Func<TSource, TSource, bool> compare)
         {
             TSource prev = default(TSource);
