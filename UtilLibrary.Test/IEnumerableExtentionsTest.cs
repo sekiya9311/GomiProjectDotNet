@@ -41,5 +41,12 @@ namespace UtilLibrary.Test
                 Assert.False(bar.SequenceEqual(new int[] { 3, 2, 1, 0 }));
             }
         }
+
+        [Fact]
+        public void IsSortedTest()
+        {
+            Assert.True(new int[] { 0, 1, 2, 3 }.IsSorted((a, b) => Math.Min(a, b) == a));
+            Assert.False(new int[] { 3, 2, 1, 0 }.IsSorted((a, b) => Math.Min(a, b) == a));
+        }
     }
 }

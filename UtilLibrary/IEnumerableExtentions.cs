@@ -25,5 +25,21 @@ namespace UtilLibrary
             }
             yield return element;
         }
+
+        public static bool IsSorted<TSource>(this IEnumerable<TSource> source, Func<TSource, TSource, bool> compare)
+        {
+            TSource prev = default(TSource);
+            bool isFirst = true;
+            foreach (var e in source)
+            {
+                if (!isFirst && !compare(prev, e))
+                {
+                    return false;
+                }
+                isFirst = false;
+                prev = e;
+            }
+            return true;
+        }
     }
 }
